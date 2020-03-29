@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:700&display=swap');
+body,
+html {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/rockywall.png);
+  background-repeat: repeat;
+  font-family: 'Exo', sans-serif;
+}
+
+body p {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.header h1 {
+    background: #ce2c38;
+    border-radius: 0%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    height: 120px;
+    margin: 60px auto 0;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    z-index: 10;
+}
+
+.header h1 span {
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  padding: 20px 0 0 0;
+}
+
+.header h1 span+span {
+  color: #000;
+  display: block;
+  font-size: 28px;
+  padding: 0;
+}
+
+.main .container {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin: -70px auto 80px;
+  padding: 80px;
+  z-index: 0;
+}
+.row {
+	margin:3% 0%;
+}
+h1 {
+  color: #444;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  border-bottom: 1px solid #444;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  margin: 20px 0 10px;
+  padding: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #ce2c38;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+/*.item h3:after {
+	content: "\f030";
+    font-family: FontAwesome;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 7px;
+    position: absolute;
+}*/
+.item-image img {
+	    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 4px solid #ce2c38;
+    border-radius: 20px;
+}
+.item h3 {
+	width:fit-content;
+}
+.item i {
+	    float: right;
+    margin-left: 10px;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 8px;
+}
+.price p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  margin: 26px 0 5px;
+  text-align: right;
+}
